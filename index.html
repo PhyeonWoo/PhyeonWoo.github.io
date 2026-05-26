@@ -128,7 +128,8 @@
   .proj-idx{font-family:var(--mono);font-size:13px;color:var(--ink-faint)}
   .proj-top h3{font-family:var(--serif);font-size:clamp(26px,3.6vw,40px);font-weight:400;letter-spacing:-.01em}
   .proj-role{font-family:var(--sans);font-size:13.5px;color:var(--ink-faint)}
-  .proj-link{margin-left:auto;font-family:var(--mono);font-size:13px;color:var(--ink-dim);white-space:nowrap;transition:.25s;display:inline-flex;align-items:center;gap:8px}
+  .proj-links{margin-left:auto;display:flex;gap:20px;align-items:baseline;flex-wrap:wrap}
+  .proj-link{font-family:var(--mono);font-size:13px;color:var(--ink-dim);white-space:nowrap;transition:.25s;display:inline-flex;align-items:center;gap:7px}
   .proj-link:hover{color:var(--accent)}
   .proj-link .arr{transition:transform .25s;display:inline-block}
   .proj-link:hover .arr{transform:translate(3px,-3px)}
@@ -198,7 +199,7 @@
     .burger{display:flex}
     .about-grid,.exp-grid{grid-template-columns:1fr;gap:42px}
     .skill-grid{grid-template-columns:1fr}
-    .proj-link{margin-left:0;width:100%;margin-top:4px}
+    .proj-links{margin-left:0;width:100%;margin-top:6px}
     .scroll-hint{display:none}
     section{padding:88px 0}
     .metric{flex:1;min-width:120px}
@@ -309,7 +310,11 @@
         <span class="proj-idx">P.01</span>
         <h3>Planify</h3>
         <span class="proj-role">SaaS 구독·결제 관리 플랫폼</span>
-        <a class="proj-link" href="https://github.com/PhyeonWoo" target="_blank" rel="noopener">CODE <span class="arr">↗</span></a>
+        <!-- ↓ 아래 href="" 안에 주소를 넣으세요 (CODE: GitHub 레포 / NOTION: 노션 페이지) -->
+        <span class="proj-links">
+          <a class="proj-link" href="https://github.com/PhyeonWoo" target="_blank" rel="noopener">CODE <span class="arr">↗</span></a>
+          <a class="proj-link" href="https://pricey-bumper-0b7.notion.site/Planify-1c63f98d285081569565c928bb3128c4" target="_blank" rel="noopener">NOTION <span class="arr">↗</span></a>
+        </span>
       </div>
       <p class="desc">
         구독 생성부터 결제 승인·환불·플랜 한도 적용까지 <b>실 결제 수준의 구독 관리</b>를 구현한 SaaS 백엔드.
@@ -340,7 +345,11 @@
         <span class="proj-idx">P.02</span>
         <h3>Storix</h3>
         <span class="proj-role">쇼핑몰 상품 도메인 백엔드</span>
-        <a class="proj-link" href="https://github.com/PhyeonWoo" target="_blank" rel="noopener">CODE <span class="arr">↗</span></a>
+        <!-- ↓ 아래 href="" 안에 주소를 넣으세요 (CODE: GitHub 레포 / NOTION: 노션 페이지) -->
+        <span class="proj-links">
+          <a class="proj-link" href="https://github.com/PhyeonWoo" target="_blank" rel="noopener">CODE <span class="arr">↗</span></a>
+          <a class="proj-link" href="https://pricey-bumper-0b7.notion.site/Storix-36c3f98d28508043aa22f57a92e79fcb" target="_blank" rel="noopener">NOTION <span class="arr">↗</span></a>
+        </span>
       </div>
       <p class="desc">
         상품 탐색·검색·위시리스트·연관 상품 추천까지 <b>실 서비스 수준의 상품 도메인</b>을 구현.
@@ -370,7 +379,11 @@
         <span class="proj-idx">P.03</span>
         <h3>Quest</h3>
         <span class="proj-role">알츠하이머 환자 기억력 증진 플랫폼</span>
-        <a class="proj-link" href="https://github.com/PhyeonWoo" target="_blank" rel="noopener">CODE <span class="arr">↗</span></a>
+        <!-- ↓ 아래 href="" 안에 주소를 넣으세요 (CODE: GitHub 레포 / NOTION: 노션 페이지) -->
+        <span class="proj-links">
+          <a class="proj-link" href="https://github.com/PhyeonWoo" target="_blank" rel="noopener">CODE <span class="arr">↗</span></a>
+          <a class="proj-link" href="https://pricey-bumper-0b7.notion.site/Quest-3493f98d2850802a893bf25c103e5daf" target="_blank" rel="noopener">NOTION <span class="arr">↗</span></a>
+        </span>
       </div>
       <p class="desc">
         보호자가 텍스트·이미지 퀴즈를 등록하면 환자가 풀어나가는 백엔드 플랫폼.
